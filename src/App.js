@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { useEffect, useState } from 'react';
 
 function App() {
   return (
@@ -10,6 +11,11 @@ function App() {
 }
 
 function LoadCountries(){
+  const [countries,setCountries]= useState([])
+
+  useEffect(()=>{
+    
+  },[])
   return(
     <div>
       <h1>Visiting Every Countries</h1>
