@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { useEffect, useState } from 'react';
 import Countries from './components/Countries/Countries';
@@ -8,10 +8,15 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
-   <Countries></Countries>
+      <Countries></Countries>
     </div>
   );
 }
+
+
+
+
+
 /* <LoadCountries></LoadCountries> */
 // function LoadCountries(){
 //   const [countries,setCountries]= useState([])
