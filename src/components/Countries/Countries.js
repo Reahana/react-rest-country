@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './Countries.css'
 import Country from '../Country/Country';
 
 const Countries = () => {
@@ -11,9 +12,12 @@ const Countries = () => {
     return (
         <div>
             <h1>Hello from Countries {countries.length}</h1>
+            <div className='countries-container'>
             {
-                countries.map(country=> <Country name ={country.name.common} population={country.population}></Country>)
+                countries.map(country => <Country  country ={country}></Country>)
             }
+            </div>
+           
         </div>
     );
 };
