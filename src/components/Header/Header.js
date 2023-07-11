@@ -3,7 +3,7 @@ import './Header.css'
 const Header = () => {
     return (
         <div>
-            <h2>Welcome to my React </h2>
+            <h1>Welcome to my React </h1>
             <nav>
             <nav className='menu'>
                 <a href="/home">Home</a>
